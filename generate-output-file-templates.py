@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 #
 # Prepare templates for output files from offline radiative transfer calculations
 #   suitable for publishing on the Earth System Grid

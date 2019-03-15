@@ -1,4 +1,5 @@
 *.swp
+.idea
 .ipynb_checkpoints
 in
 multiple*.nc

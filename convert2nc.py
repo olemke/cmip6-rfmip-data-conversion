@@ -27,5 +27,5 @@ def convert_arts_to_nc(casename):
 
 
 if __name__ == '__main__':
-    convert_arts_to_nc('default')
+    convert_arts_to_nc('allCFCs_LM')
     convert_arts_to_nc('allCFCs')

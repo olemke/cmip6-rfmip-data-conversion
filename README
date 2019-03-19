@@ -8,3 +8,5 @@ Steps:
 ./convert-arts-to-nc.sh  # Do the conversion
 ```
 
+Output files are then located in the `out` folder.
+

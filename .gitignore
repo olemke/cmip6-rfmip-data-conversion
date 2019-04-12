@@ -1,4 +1,6 @@
+*.pdf
 *.swp
+*.zip
 .idea
 .ipynb_checkpoints
 in

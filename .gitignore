@@ -3,6 +3,7 @@
 *.zip
 .idea
 .ipynb_checkpoints
+Efx_*
 in
 multiple*.nc
 out

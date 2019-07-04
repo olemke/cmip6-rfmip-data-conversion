@@ -8,9 +8,9 @@ from netCDF4 import Dataset
 def convert_arts_to_nc(casename, physics_index=1, forcing_index=1):
     if casename.startswith('option'):
         fluxes = axml.load(
-            f'in/{casename}/fluxes.{casename}.level_input_{casename}.xml')
+            f'in/{casename}_export/fluxes.{casename}.level_input_{casename}.xml')
     else:
-        fluxes = axml.load(f'in/{casename}/fluxes.{casename}.level_input.xml')
+        fluxes = axml.load(f'in/{casename}_export/fluxes.{casename}.level_input.xml')
     fluxes = np.array(fluxes).reshape(18, 100, 61, 3)
     fluxes = np.flip(fluxes, 2)
 
